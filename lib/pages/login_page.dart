@@ -31,10 +31,10 @@ class _LoginPageState extends State<LoginPage> {
       return;
     }
 
-    if (username.toLowerCase() != 'ezha') {
+    if (username.toLowerCase() != 'ridho') {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Username salah! Masukkan username "ezha".'),
+          content: Text('Username salah! Masukkan username "ridho".'),
           backgroundColor: Colors.orange,
           duration: Duration(seconds: 2),
         ),
@@ -42,10 +42,10 @@ class _LoginPageState extends State<LoginPage> {
       return;
     }
 
-    if (password != '142') {
+    if (password != '137') {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Password salah! Masukkan 3 digit NIM (142).'),
+          content: Text('Password salah! Masukkan 3 digit NIM (137).'),
           backgroundColor: Colors.orange,
           duration: Duration(seconds: 2),
         ),
